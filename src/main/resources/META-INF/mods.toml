@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License https://github.com/mcjty/minimalmod/blob/1.16/LICENCE"
+issueTrackerURL="http://github.com/mcjty/minimalmod/issues"
+displayURL="http://github.com/mcjty/minimalmod/"
+authors="McJty"
+
+[[mods]]
+modId="minimalmod"
+version="${file.jarVersion}"
+displayName="Minimal Mod"
+description='''
+The Minimal Mod. Very not useful!
+'''
+[[dependencies.minimalmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43.0.0,)"
+    ordering="NONE"
+    side="BOTH"
